@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color:rgb(70, 11, 11);
+}
+nav{
+    font-family: 'ubuntu','sans-serif';
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px ;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li {
+    padding: 15px;
+}
+nav ul input{
+    margin-left: 247px;
+    width: 25%;
+    border-radius: 7px;
+    height: 24px;
+    text-align: center;
+    font-size: medium;
+    
+}
+nav ul button{
+    margin-left: 15px;
+    width: 73px;
+    border-radius: 6px;
+    height: 26px;
+    color: white;
+    background-color: rgb(11, 10, 10);
+    cursor: pointer;
+    border: 2px solid maroon;
+    
+}
+nav ul button:hover{
+    margin-left: 15px;
+    width: 73px;
+    border-radius: 6px;
+    height: 26px;
+    color: white;
+    background-color: rgb(92, 10, 214);
+    cursor: pointer;
+    border: 2px solid black;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+.navList a:hover{
+background-color: white;
+color: black;
+padding: 8px;
+border-radius: 5px;
+}
+
+.brand img{
+    width: 39px;
+    padding: 0 6px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 0 2px;
+    
+}
+
+.container{
+    min-height: 75vh;
+    background-color: rgb(48, 6, 6);
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 15px;
+    padding: 37px;
+    background: url("bg-image.jpg")center center/cover;
+
+}
+
+
+.bottom{
+    background-color: black;
+    color: white;
+    position: sticky;
+    height: 130px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid orange;
+}
+#myProgressBar{
+
+    width: 80%;
+    text-align: center;
+}
+.icons{
+    margin-top: 17px;
+    
+}
+.icons i{
+    cursor: pointer;
+    padding: 7px;
+}
+.songList{
+    background: url("Kishore-Kumar.jpg")center center/cover;
+    
+    width: 450px;
+    border-radius: 25px;
+    margin: 20px 0 ;
+    padding: 23px  23px;
+    height: 460px;
+}
+.songItemContainer{
+    margin-top: 74px;
+}
+.songItem{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 46px;
+    width: 142%;
+    margin: 8px 511px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 7px;
+    border-radius: 12px;
+    
+}
+
+.songItem img{
+    width: 29px;
+    border-radius: 7px;
+    padding-left: 19px;
+}
+.songItem span i{
+    padding: 5px;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+}

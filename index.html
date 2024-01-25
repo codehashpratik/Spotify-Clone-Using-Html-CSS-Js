@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite Music is Here !</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="logo.png" alt="Spotify">Spotify
+            </li>
+            <li class="navList"><a href="#">Home</a></li>
+            <li class="navList"><a href="#">About</a></li>
+            <input type="text" name="text" placeholder="search the song">
+            <button>Search</button>
+        </ul>
+
+    </nav>
+    <div class="container">
+
+        <div class="songList">
+            <h1>Best of Kishore Kumar</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="Kishore-Kumar.jpg" alt="1">
+                    <span class="songName">Oh Mere Dil Ke Chain</span>
+                    <span class="songlistplay">
+                        <span>5.23</span><i id="1" class="fa-solid fa-play fa-shake songitemPlay"
+                            style="color: white;"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="Kishore-Kumar.jpg" alt="1">
+                    <span class="songName">Mere Sapno Ki Rani</span>
+                    <span class="songlistplay">
+                        <span>5.33</span><i id="2" class="fa-solid fa-play fa-shake songitemPlay"
+                            style="color: white;"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="Kishore-Kumar.jpg" alt="1">
+                    <span class="songName">Tum Aa Gaye Ho</span>
+                    <span class="songlistplay">
+                        <span>5.47</span><i id="3" class="fa-solid fa-play fa-shake songitemPlay"
+                            style="color: white;"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="Kishore-Kumar.jpg" alt="1">
+                    <span class="songName">Tere Jaisa Yaar Kahan</span>
+                    <span class="songlistplay">
+                        <span>5.19</span><i id="4" class="fa-solid fa-play fa-shake songitemPlay"
+                            style="color: white;"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="Kishore-Kumar.jpg" alt="1">
+                    <span class="songName">Ghum Hai Kisi Ke </span>
+                    <span class="songlistplay">
+                        <span>5.07</span><i id="5" class="fa-solid fa-play fa-shake songitemPlay"
+                            style="color: white;"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="Kishore-Kumar.jpg" alt="1">
+                    <span class="songName">Rimjhim Gire Sawan</span>
+                    <span class="songlistplay">
+                        <span>6.15</span><i id="6" class="fa-solid fa-play fa-shake songitemPlay"
+                            style="color: white;"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+
+            <i class="fa-solid fa-backward fa-2xl" style="--fa-primary-color: #5618c9;" id="previous"></i>
+            <i class="fa-solid fa-play fa-shake  fa-2xl" style="color: #5a0dce;" id="masterPlay"></i>
+            <i class="fa-solid fa-forward fa-2xl " style="--fa-primary-color: #6b07cf;" id="next"></i>
+
+            <!-- fontawesome icons -->
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Ghum Hai Kisi Ke Pyar Mein -
+                Raampur Ka Lakhsman</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2beca8bc13.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
